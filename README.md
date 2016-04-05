@@ -13,10 +13,10 @@ Mark some records in dataset
     6           5        Facebook    42377.40598
     6           6        Web         42378.31245
 
-`CustomerID`: the unique identifier associated with the particular customer
-`EventID`: a unique identifier about a particular online activity
-`EventType`: the type of online activity associated with this record (Web, Facebook, or Twitter)
-`EventTime`: the date and time at which this online activity took place. This value is measured as the number of days since January 1, 1900, with fractions indicating particular times of day. So for example, an event taking place at the stroke of midnight on January 1, 2016 would be have an EventTime of 42370.00 while an event taking place at noon on January 1, 2016 would have an EventTime of 42370.50.
+* `CustomerID`: the unique identifier associated with the particular customer
+* `EventID`: a unique identifier about a particular online activity
+* `EventType`: the type of online activity associated with this record (Web, Facebook, or Twitter)
+* `EventTime`: the date and time at which this online activity took place. This value is measured as the number of days since January 1, 1900, with fractions indicating particular times of day. So for example, an event taking place at the stroke of midnight on January 1, 2016 would be have an EventTime of 42370.00 while an event taking place at noon on January 1, 2016 would have an EventTime of 42370.50.
 
 What I need to do next is sort each record into the fraud or legit list of lists. A record would be considered fraudulent under the following parameters. As such, that record would go to the fraud list.
 
