@@ -51,5 +51,4 @@ for k, e in enumerate(events):
 
 df = pd.DataFrame(events, columns=['CustomerID', 'EventID', 'EventType', 'EventTime', 'Fraud'])
 
-del df['EventTime']
-df.to_csv('s.csv')
+df.to_csv('output/sqlite.csv', columns=['EventID', 'Fraud'])
